@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding-top: 15px;
+
+}
+
+.nav-hd {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.nav-hd:hover {
+    color: white;
+}
+
+
+
+.hero-1-bg {
+    padding: 180px 0 140px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/* positions */
+
+.pos-hd {
+    position: relative;
+
+}
+
+.align-sm {
+    left: 10px;
+}
+
+
+.p-el {
+    padding-left: 40px;
+}
+
+.border-hd {
+    border-left: 2px solid black;
+}
+
+#head1 {
+    color: #5551FF;
+    font-weight: 400;
+}
+
+#btn1 {
+    background-color: #5551FF;
+    color: white;
+    width: 12.8rem;
+}
+
+#head2 {
+    color: #5551FF;
+}
+
+#mmi {
+    margin-top: 9.9rem;
+    border-bottom: 1.5px solid black;
+}
+
+.mmi_s {
+    color: #5551FF;
+}
+
+#mmi2 {
+    width: 100%;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1206px) {
+    .mmss {
+        margin-right: 50px;
+
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .mmss {
+        margin-top: 20px;
+
+    }
+}
+
+/* #img1{
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+@media screen and (min-width: 400px) and (max-width: 992px) {
+    .mmsi {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* Adjust the height as needed */
+    }
+
+    .mmsi p {
+        width: 100%;
+        /* Full width within the container */
+        text-align: center;
+        /* Center text within the paragraph */
+        margin-top: 2rem;
+        /* Adjust the margin-top value as needed */
+    }
+}
+
+#tik{
+    border-top: 1.5px solid black;
+    margin-top: 130px;
+}
+#tiki{
+    margin-top: 100px;
+
+}
