@@ -97,12 +97,12 @@
   } */
 @media screen and (min-width: 400px) and (max-width: 992px) {
     .mmsi {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+         margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
         /* Adjust the height as needed */
     }
 
@@ -110,10 +110,17 @@
         width: 100%;
         /* Full width within the container */
         text-align: center;
+        margin: 2px 15px 15px 2px;
+       
         /* Center text within the paragraph */
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
+        margin-bottom: 5rem;
+        
         /* Adjust the margin-top value as needed */
     }
+   .bts{
+    margin-bottom: 8rem;
+   }
 }
 
 #tik{
